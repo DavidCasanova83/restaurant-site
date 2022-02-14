@@ -81,6 +81,7 @@ p {
   border: 1px solid rgba(34, 34, 34, 0);
 }
 .btn-dark {
+  margin: 20px;
   background: #222;
   color: white;
 }
@@ -165,6 +166,7 @@ p {
 
 .vp-content {
   max-width: 600px;
+  padding: 20px;
   padding-top: 170px;
   color: white;
   display: block;
@@ -184,7 +186,7 @@ p {
 
 .features {
   overflow: auto;
-  padding: 100px 0 100px 0;
+  padding: 100px 20px 100px 0;
   text-align: center;
 }
 
@@ -203,11 +205,12 @@ p {
 /* reservation section */
 
 .reservation {
-  padding: 100px 0px 100px 0;
+  padding: 100px 20px 100px 0;
   text-align: center;
 }
 .reservation p {
   text-align: left;
+  margin-left: 15px;
 }
 
 /* FOOTER */
@@ -249,11 +252,13 @@ footer p {
 
 
 .contact{
-    padding: 180px 0 100px 0;
+    padding: 100px 0 100px 0;
     min-height: 100vh;
+    margin: 0 15px 0 15px;
 }
 .contact-form-container{
     max-width: 600px;
+    padding: 20px;
     margin:auto;
 }
 
